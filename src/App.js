@@ -1,11 +1,11 @@
 import { Provider } from "react-redux";
 import { store } from "./app/store";
-import Counter from "./feature/counter/Counter";
+import PostList from "./feature/posts/PostList";
 
 function App() {
   return (
     <Provider store={store}>
-      <Counter />
+      <PostList />
     </Provider>
   );
 }
